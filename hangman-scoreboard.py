@@ -69,6 +69,9 @@ length_word = len(word)
 letter = "abcdefghijklmnopqrstuvwxyz"
 letter_Guessed = []
 
+player_score = 0
+
+
 def beginning():
     print("Hello Player!\n")
 
@@ -86,7 +89,7 @@ def change():
 
     print("NOTE: The word contains", length_word, "letters. You may only guess 1 letter at a time.\n")
 
-    print(guess_word)
+    print(guess_word) 
 
 def guessing():
     
