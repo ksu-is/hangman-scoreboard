@@ -8,7 +8,7 @@
 
 5. Test run existing hangman code repositories [✔] 
 
-6. Fork and submit pull request for existing code [  ] 
+6. Fork and submit pull request for existing code [✔] 
 
 7. Edit existing code to add scoreboard [  ] 
 
