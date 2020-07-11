@@ -115,6 +115,7 @@ def guessing():
                         print(guess_word)
 
                 if not '-' in guess_word:
+                    player_score = 0
                     print("You won!")
                     player_score += 1
                     print(player_name,"score is",player_score)
