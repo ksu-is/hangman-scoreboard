@@ -74,7 +74,7 @@ player_score = 0
 
 
 def beginning():
-    print("Hello Player!\n")
+    print("Hello",player_name.title(),"\n")
 
 beginning()
 
