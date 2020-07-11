@@ -120,6 +120,7 @@ def guessing():
                     print("You won!")
                     player_score += 1
                     print(player_name,"score is",player_score)
+                    print(player_name,"'s score is",player_score)
                     break
             else:
                 print("This was a wrong Guess!")
