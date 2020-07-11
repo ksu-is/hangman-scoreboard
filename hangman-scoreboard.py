@@ -95,6 +95,7 @@ def change():
 def guessing():
     
     guess_taken = 1
+    guess_taken = 0
 
     while guess_taken < 6:
 
