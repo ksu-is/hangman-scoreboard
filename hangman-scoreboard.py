@@ -69,6 +69,7 @@ length_word = len(word)
 letter = "abcdefghijklmnopqrstuvwxyz"
 letter_Guessed = []
 
+player_name = input("Enter your name")
 player_score = 0
 
 
@@ -115,6 +116,8 @@ def guessing():
 
                 if not '-' in guess_word:
                     print("You won!")
+                    player_score += 1
+                    print(player_name,"score is",player_score)
                     break
             else:
                 print("This was a wrong Guess!")
