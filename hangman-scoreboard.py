@@ -69,7 +69,7 @@ length_word = len(word)
 letter = "abcdefghijklmnopqrstuvwxyz"
 letter_Guessed = []
 
-player_name = input("Enter your name")
+player_name = input("Enter your name: ")
 player_score = 0
 
 
