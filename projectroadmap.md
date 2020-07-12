@@ -10,7 +10,8 @@
 
 6. Fork and submit pull request for existing code [✔] 
 
-7. Edit existing code to add scoreboard [  ] 
+7. Edit existing code to add scoreboard [✔] 
+   Add code to loop game [  ]
 
 8. Run code to ensure scoreboard is working [  ] 
 
