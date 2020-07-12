@@ -20,6 +20,8 @@
 
 10. Schedule presentation time [  ] 
 
-11. Create PowerPoint presentation slide [  ] 
+11. Create PowerPoint presentation slide [✔]
+
+    And upload to repository [✔]
 
 12. Submit final project [  ] 
