@@ -141,6 +141,7 @@ while True:
         guess_word = []
         letter_Guessed = []
         length_word = 0
+        length_word = len(word)
         guess_taken = 0
         guess = ('')
         change()
