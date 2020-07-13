@@ -128,6 +128,21 @@ def guessing():
                 print(hangman[guess_taken])
                 if guess_taken == 6:
                     print(" Sorry, You have lost the game. Better luck next time!\n The word was", word)
+while True:
+    change()
+    guessing()
+    play_again = input("Would you like to play again? yes or no: ").lower()
+    if play_again.startswith('y'):
+        word = random.choice(answerlist) 
+        guess_word = []
+        letter_Guessed = []
+        guess_taken = 0
+        guess = ('')
+        change()
+        guessing()
+    else:
+        break
+
 
 change()
 guessing()
