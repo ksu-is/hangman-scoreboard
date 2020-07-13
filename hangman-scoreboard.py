@@ -131,11 +131,16 @@ def guessing():
 while True:
     change()
     guessing()
+change()
+guessing()
+
+while True:    
     play_again = input("Would you like to play again? yes or no: ").lower()
     if play_again.startswith('y'):
         word = random.choice(answerlist) 
         guess_word = []
         letter_Guessed = []
+        length_word = 0
         guess_taken = 0
         guess = ('')
         change()
