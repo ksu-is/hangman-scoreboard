@@ -59,9 +59,8 @@ hangman = ['''
         |
   =========''']
 
-answerlist = [
-"honda", "toyota", "ford", "chevrolet", "jeep", "lexus", "audi", "bmw", "nissan", "jaguar", "dodge", "volvo", "cadillac", "kia", "hyundai", "chrysler", "mercedes", "tesla", "porsche", "lincoln", "mazda"
-           ]
+import ramdon
+from words import answerlist
 
 guess_word = []
 word = random.choice(answerlist) 
