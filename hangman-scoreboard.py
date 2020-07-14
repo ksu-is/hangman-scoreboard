@@ -70,11 +70,11 @@ letter = "abcdefghijklmnopqrstuvwxyz"
 letter_Guessed = []
 
 player_name = input("Enter your name: ").title()
-player_score = 0
+
 
 
 def beginning():
-    print("Hello",player_name.title(),"\n")
+    print("Hello",player_name.title() + "!","\n")
 
 beginning()
 
@@ -84,19 +84,16 @@ def newFunc():
 newFunc()
 
 def change():
-
-    for letter in word: 
+    
+    for letter in word:     
         guess_word.append("-")
 
     print("NOTE: The word contains", length_word, "letters. You may only guess 1 letter at a time.\n")
 
-    print(guess_word) 
+    print(guess_word)     
 
 def guessing():
-    
-    guess_taken = 1
     guess_taken = 0
-
     while guess_taken < 6:
 
         guess = input("Guess a letter from A-Z:\n").lower()
@@ -119,18 +116,19 @@ def guessing():
                     player_score = 0
                     print("You won!")
                     player_score += 1
-                    print(player_name,"score is",player_score)
-                    print(player_name,"'s score is",player_score)
+                    print(player_name+"'s score is",player_score)
                     break
             else:
                 print("This was a wrong Guess!")
                 guess_taken += 1
                 print(hangman[guess_taken])
                 if guess_taken == 6:
-                    print(" Sorry, You have lost the game. Better luck next time!\n The word was", word)
-while True:
-    change()
-    guessing()
+                    print("Sorry, You have lost the game. Better luck next time!\n The word was", word)
+                    break
+
+
+
+#game looping code
 change()
 guessing()
 
@@ -140,15 +138,13 @@ while True:
         word = random.choice(answerlist) 
         guess_word = []
         letter_Guessed = []
-        length_word = 0
         length_word = len(word)
         guess_taken = 0
         guess = ('')
         change()
         guessing()
     else:
+        print("Thanks for playing",player_name+"! Your score is",player_score)
         break
 
 
-change()
-guessing()
