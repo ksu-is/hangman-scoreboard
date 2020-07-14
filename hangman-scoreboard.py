@@ -58,8 +58,8 @@ hangman = ['''
    / \  |
         |
   =========''']
-
-import ramdon
+#importing list from other file
+import radom
 from words import answerlist
 
 guess_word = []
