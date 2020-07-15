@@ -12,13 +12,13 @@
 
 7. Edit existing code to add scoreboard [✔] 
 
-   Add code to loop game [  ]
+   Add code to loop game [✔]
 
-8. Run code to ensure scoreboard is working [  ] 
+8. Run code to ensure scoreboard is working [✔] 
 
 9. If time permits, edit code to add sound effects [  ] 
 
-10. Schedule presentation time [  ] 
+10. Schedule presentation time [✔] 
 
 11. Create PowerPoint presentation slide [✔]
 
