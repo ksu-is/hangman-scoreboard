@@ -16,7 +16,7 @@
 
 8. Run code to ensure scoreboard is working [✔] 
 
-9. If time permits, edit code to add sound effects [  ] 
+9. If time permits, edit code to add sound effects [Removed] 
 
 10. Schedule presentation time [✔] 
 
